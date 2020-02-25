@@ -1,0 +1,8 @@
+def div_num():
+    list_num=[]
+    for num in range(1500,2701):
+        if num%7==0 and num%5==0:
+            list_num.append(num)
+    return list_num
+div_num()
+  
