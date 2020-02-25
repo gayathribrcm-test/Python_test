@@ -4,5 +4,5 @@ def div_num():
         if num%7==0 and num%5==0:
             list_num.append(num)
     return list_num
-div_num()
+print(div_num())
   
